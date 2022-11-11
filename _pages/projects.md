@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: AIR lab
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Assured Intelligent Robotics Lab
 nav: true
 nav_order: 2
 display_categories: [work, fun]

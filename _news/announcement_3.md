@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-06-30
 inline: true
 ---
 
-Two papers accepted to IROS 2022 with Markdown emoji! :sparkles: :smile:
+Two papers accepted to IROS 2022

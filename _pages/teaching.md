@@ -2,11 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Delft University of Technology
 
-Organize your courses by years, topics, or universities, however you like!
+TA, Cyber Data Analytics (CS4035), 2015-2018           
+
+Cleveland State University
+
+Instructor, Intro. to Algorithms (CIS 390/550), 2022 Spring
+
+Instructor, Machine Learning (CIS 492), 2022 Fall
