@@ -2,9 +2,9 @@
   type: map
   contents:
     - name: Full Name
-      value: Qin Lin （林勤）
-    #- name: Date of Birth
-    #  value: 14th March 1879
+      value: Qin Lin, 林勤
+    - name: Place of Birth
+      value: Fuzhou, China
     - name: Marital status
       value: married, father of one little girl
     - name: Languages
@@ -16,9 +16,9 @@
     - title: PhD
       institution: Delft University of Technology, the Netherlands
       year: 2019
-      description:
-        - Dissertation: Intelligent Control Systems: Learning, Interpreting, Verification
-        - Supervisor: [Prof. Sicco Verwer](https://www.tudelft.nl/staff/s.e.verwer/) and [Prof. Jan van den Berg](https://www.tudelft.nl/staff/j.vandenberg/?cHash=7543638730817b68440527caf616bf8e)
+      description: 
+        - Dissertation&#58;  Intelligent Control Systems - Learning, Interpreting, Verification
+        - Supervisors&#58; <a href="https://www.tudelft.nl/staff/s.e.verwer/">Prof. Sicco Verwer</a> and <a href="https://www.tudelft.nl/staff/j.vandenberg/?cHash=7543638730817b68440527caf616bf8e">Prof. Jan van den Berg</a>
         #- title: Description 3.
         #  contents:
         #    - Sub-description 1.
@@ -27,8 +27,7 @@
       institution: Tongji University, China
       year: 2014
       description:
-      - Supervisor: [Prof. Jun Wang](https://scholar.google.com/citations?user=FLw8TGYAAAAJ&hl=en)
-      #  - Description 2.
+        - Supervisor&#58; <a href="https://scholar.google.com/citations?user=FLw8TGYAAAAJ&hl=en">Prof. Prof. Jun Wang</a>
     - title: Bachelor in Automation
       institution: Hefei University of Technology, China
       year: 2011
@@ -50,7 +49,7 @@
       institution: Robotics Institute, Carnegie Mellon University
       year: 2019.5-2022.1
       description:
-        - Advisor: [Prof. John M. Dolan](https://www.ri.cmu.edu/ri-faculty/john-m-dolan/)
+      #  - Advisor: [Prof. John M. Dolan](https://www.ri.cmu.edu/ri-faculty/john-m-dolan/)
 
 # - title: Open Source Projects
 #   type: time_table
