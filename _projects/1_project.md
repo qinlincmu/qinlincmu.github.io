@@ -4,7 +4,7 @@ title: Lab activities
 #description: a project with a background image
 img: assets/img/Hofbrauhaus_2022.jpg
 importance: 1
-category: fun
+category: activities
 ---
 
 <div class="row">

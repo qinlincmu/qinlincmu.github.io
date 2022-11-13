@@ -3,8 +3,8 @@ layout: page
 title: Hunter robot
 description: UGV robot
 img: assets/img/UGV.jpg
-importance: 2
-category: work
+importance: 1
+category: facilities
 ---
 
 

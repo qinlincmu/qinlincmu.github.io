@@ -5,7 +5,7 @@ permalink: /projects/
 description: Assured Intelligent Robotics (AIR) Lab
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [facilities, activities]
 horizontal: false
 ---
 

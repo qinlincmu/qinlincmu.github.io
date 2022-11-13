@@ -3,9 +3,8 @@ layout: page
 title: Baxter manufacturing robot
 description: robot arm
 img: assets/img/baxter.jpg
-#redirect: https://unsplash.com
-importance: 3
-category: work
+importance: 2
+category: facilities
 ---
 
 <div class="row">
