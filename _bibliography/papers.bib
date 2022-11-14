@@ -1,15 +1,25 @@
 ---
 ---
+
+@article{kalaria2022end2end,
+  abbr={kalaria2022end2end},
+  title={Spatio-temporal Motion Planning for Autonomous Vehicles with Trapezoidal Prism Corridors and Bezier Curves},
+  author={Kalaria*, Dvij and Lin, Qin and Dolan, John M},
+  journal={under review},
+  year={2022},
+  video = {https://www.youtube.com/watch?v=Ora8JCjprw8},
+  abstract = {Autonomous car racing is a challenging task, as it requires precise applications of control while the vehicle is operating at cornering speeds. Traditional autonomous pipelines require accurate pre-mapping, localization, and planning which make the task computationally expensive and environment-dependent. Recent works propose use of imitation and reinforcement learning to train end-to-end deep neural networks and have shown promising results for high-speed racing. However, the end-to-end models may be dangerous to be deployed on real systems, as the neural networks are treated as black-box models devoid of any provable safety guarantees. In this work we propose a decoupled approach where an optimal end-to-end controller and a state prediction end-to-end model are learned together, and the predicted state of the vehicle is used to formulate a control barrier function for safeguarding the vehicle to stay within lane boundaries. We validate our algorithm both on a high-fidelity Carla driving simulator and a 1/10-scale RC car on a real track. The evaluation results suggest that using an explicit safety controller helps to learn the task safely with fewer iterations and makes it possible to safely navigate the vehicle on the track along the more challenging racing line.},
+  selected={true},
+}
+
 @article{deolasee2022spatio,
   abbr={deolasee2022spatio},
   title={Spatio-temporal Motion Planning for Autonomous Vehicles with Trapezoidal Prism Corridors and Bezier Curves},
   author={Deolasee*, Srujan and Lin, Qin and Li, Jialun and Dolan, John M},
   journal={arXiv preprint arXiv:2209.15150},
   year={2022},
-  video = {https://youtu.be/-SXlEhSTSi8},
   link = {https://arxiv.org/abs/2209.15150},
   abstract = {Safety-guaranteed motion planning is critical for self-driving cars to generate collision-free trajectories. A layered motion planning approach with decoupled path and speed planning is widely used for this purpose. This approach is prone to be suboptimal in the presence of dynamic obstacles. Spatial-temporal approaches deal with path planning and speed planning simultaneously; however, the existing methods only support simple-shaped corridors like cuboids, which restrict the search space for optimization in complex scenarios. We propose to use trapezoidal prism-shaped corridors for optimization, which significantly enlarges the solution space compared to the existing cuboidal corridors-based method. Finally, a piecewise Bézier curve optimization is conducted in our proposed corridors. This formulation theoretically guarantees the safety of the continuous-time trajectory. We validate the efficiency and effectiveness of the proposed approach in numerical and CommonRoad simulations.},
-  selected={true}
 }
 
 @article{chen2022,
@@ -29,7 +39,8 @@
   link={https://arxiv.org/abs/2208.13856},
   year={2022},
   video = {https://youtu.be/bWNpzMi3RlI},
-  abstract = {Delays endanger safety of autonomous systems operating in a rapidly changing environment, such as nondeterministic surrounding traffic participants in autonomous driving and high-speed racing. Unfortunately, delays are typically not considered during the conventional controller design or learning-enabled controller training phases prior to deployment in the physical world. In this paper, the computation delay from nonlinear optimization for motion planning and control, as well as other unavoidable delays caused by actuators, are addressed systematically and unifiedly. To deal with all these delays, in our framework: 1) we propose a new filtering approach with no prior knowledge of dynamics and disturbance distribution to adaptively and safely estimate the time-variant computation delay; 2) we model actuation dynamics for steering delay;  3) all the constrained optimization is realized in a robust tube model predictive controller. For the application merits, we demonstrate that our approach is suitable for both autonomous driving and autonomous racing. Our approach is a novel design for a standalone delay compensation controller. In addition, in the case that a learning-enabled controller assuming no delay works as a primary controller, our approach serves as the primary controller's safety guard. The video demonstration is available online.}
+  abstract = {Delays endanger safety of autonomous systems operating in a rapidly changing environment, such as nondeterministic surrounding traffic participants in autonomous driving and high-speed racing. Unfortunately, delays are typically not considered during the conventional controller design or learning-enabled controller training phases prior to deployment in the physical world. In this paper, the computation delay from nonlinear optimization for motion planning and control, as well as other unavoidable delays caused by actuators, are addressed systematically and unifiedly. To deal with all these delays, in our framework: 1) we propose a new filtering approach with no prior knowledge of dynamics and disturbance distribution to adaptively and safely estimate the time-variant computation delay; 2) we model actuation dynamics for steering delay;  3) all the constrained optimization is realized in a robust tube model predictive controller. For the application merits, we demonstrate that our approach is suitable for both autonomous driving and autonomous racing. Our approach is a novel design for a standalone delay compensation controller. In addition, in the case that a learning-enabled controller assuming no delay works as a primary controller, our approach serves as the primary controller's safety guard. The video demonstration is available online.},
+  selected={true}
 }
 
 @inproceedings{li2022bezier,
@@ -40,7 +51,8 @@
   year={2022},
   organization={IEEE},
   video = {https://youtu.be/0zhLScS29f0},
-  abstract = {To efficiently generate safe trajectories for an autonomous vehicle in dynamic environments, a layered motion planning method with decoupled path and speed planning is widely used. This paper studies speed planning, which mainly deals with dynamic obstacle avoidance given a planned path. The main challenges lie in the optimization in a non-convex space and the trade-off between safety, comfort, and efficiency. First, this work proposes to conduct a search in second-order derivative space for generating a comfort-optimal reference trajectory. Second, by combining abstraction and refinement, an algorithm is proposed to construct a convex feasible space for optimization. Finally, a piecewise B ́ezier polynomial optimization approach with trapezoidal corridors is presented, which theoretically guarantees safety and significantly enlarges the solution space compared with the existing rectangular corridors-based approach. We validate the efficiency and effectiveness of the proposed approach in simulations}
+  abstract = {To efficiently generate safe trajectories for an autonomous vehicle in dynamic environments, a layered motion planning method with decoupled path and speed planning is widely used. This paper studies speed planning, which mainly deals with dynamic obstacle avoidance given a planned path. The main challenges lie in the optimization in a non-convex space and the trade-off between safety, comfort, and efficiency. First, this work proposes to conduct a search in second-order derivative space for generating a comfort-optimal reference trajectory. Second, by combining abstraction and refinement, an algorithm is proposed to construct a convex feasible space for optimization. Finally, a piecewise B ́ezier polynomial optimization approach with trapezoidal corridors is presented, which theoretically guarantees safety and significantly enlarges the solution space compared with the existing rectangular corridors-based approach. We validate the efficiency and effectiveness of the proposed approach in simulations},
+  selected={true},
 }
 
 @inproceedings{panduro2022,
@@ -51,7 +63,8 @@
   year={2022},
   organization={IEEE},
   video = {https://youtu.be/9xXx9wxE1lY},
-  abstract = {A control barrier functions-based quadratic programming (CBF-QP) method has emerged as a controller synthesis tool to assure safety of autonomous systems owing to the appealing safe forward invariant set. However, the provable safety relies on a precisely described dynamic model, which is not always available in practice. Recent works leverage learning to compensate model uncertainty for a CBF controller.  However, these approaches based on reinforcement learning or episodic learning are limited to dealing with time-invariant uncertainty. Also, the reinforcement learning approach learns the uncertainty offline, while episodic learning only updates the controller after a batch of data is available by the end of an episode. Instead, we propose a novel tuning extreme learning machine (tELM)-based CBF controller that can compensate time-variant and time-invariant model uncertainty adaptively in an online manner. We validate our approach's effectiveness in a simulation of an Adaptive Cruise Control (ACC) system.}
+  abstract = {A control barrier functions-based quadratic programming (CBF-QP) method has emerged as a controller synthesis tool to assure safety of autonomous systems owing to the appealing safe forward invariant set. However, the provable safety relies on a precisely described dynamic model, which is not always available in practice. Recent works leverage learning to compensate model uncertainty for a CBF controller.  However, these approaches based on reinforcement learning or episodic learning are limited to dealing with time-invariant uncertainty. Also, the reinforcement learning approach learns the uncertainty offline, while episodic learning only updates the controller after a batch of data is available by the end of an episode. Instead, we propose a novel tuning extreme learning machine (tELM)-based CBF controller that can compensate time-variant and time-invariant model uncertainty adaptively in an online manner. We validate our approach's effectiveness in a simulation of an Adaptive Cruise Control (ACC) system.},
+  selected={true}
 }
 
 
@@ -60,7 +73,7 @@
   abbr={kalaria2022IV},
   title={Delay-aware Robust Control for Safe Autonomous Driving},
   author={Kalaria*, Dvij and Lin, Qin and Dolan, John M},
-  booktitle={2022 IEEE Intelligent Vehicles Symposium (IV)},
+  booktitle={2022 IEEE Intelligent Vehicles Symposium (IV) <b style="font-size:10;color:purple">oral, selection rate: 10%</b>},
   pages={1565--1571},
   year={2022},
   organization={IEEE},
@@ -70,18 +83,21 @@
 }
 
 @article{lin2021safe,
-  abbr={L-CSS},
+  abbr={lin2021safe},
   title={Safe and resilient practical waypoint-following for autonomous vehicles},
   author={Lin, Qin and Mitsch, Stefan and Platzer, Andr{\'e} and Dolan, John M},
   journal={IEEE Control Systems Letters},
   volume={6},
   pages={1574--1579},
   year={2021},
-  publisher={IEEE}
+  publisher={IEEE},
+  video = {https://www.youtube.com/watch?v=gmeureiWX5k},
+  link = {https://ieeexplore.ieee.org/document/9606228},
+  abstract = {We combine theorem proving and reachability analysis for cyber-physical systems verification to arrive at a practical approach to safe waypoint-following for an autonomous mobile vehicle controlled by a learning-enabled controller. We propose a robust monitor verifying short-term and long-term safety simultaneously at runtime, thereby combining the benefits of both theorem proving and reachability analysis. The proposed novel monitor architecture allows temporary violation of long-term safety while maintaining short-term safety to recover to a state with long-term safety. The recovery is based on a fallback model predictive controller. The experiments conducted in a high-fidelity racing car simulator demonstrate that our framework is safe and resilient in path tracking scenarios, in which avoiding collision with the race track boundary and obstacles is required.}
 }
 
 @article{khaitan2021safe,
-  abbr={TVT},
+  abbr={khaitan2021safe},
   title={Safe planning and control under uncertainty for self-driving},
   author={Khaitan*, Shivesh and Lin, Qin and Dolan, John M},
   journal={IEEE Transactions on Vehicular Technology},
@@ -89,89 +105,107 @@
   number={10},
   pages={9826--9837},
   year={2021},
-  publisher={IEEE}
+  publisher={IEEE},
+  video = {https://youtu.be/BAWIojbaTyE},
+  link = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9525177},
+  abstract={Motion planning under uncertainty is critical for safe self-driving. This paper proposes a unified obstacle avoidance framework that deals with 1) uncertainty in ego-vehicle motion; and 2) prediction uncertainty of dynamic obstacles from the environment. A two-stage traffic participant trajectory predictor comprising short-term and long-term prediction is used in the planning layer to generate safe but not over-conservative trajectories for the ego-vehicle. The prediction module cooperates well with existing planning approaches. Our work showcases its effectiveness in a Frenet frame planner. A robust controller using tube MPC guarantees safe execution of the trajectory in the presence of state noise and dynamic model uncertainty. A Gaussian process regression model is used for on-line identification of the uncertainty's bound. We demonstrate the effectiveness, safety, and real-time performance of our framework in the CARLA simulator.}
 }
 
 @inproceedings{jahanmahin2021jerk,
-  abbr={IV},
+  abbr={jahanmahin2021jerk},
   title={Jerk-Minimized CILQR for Human-Like Driving on Two-Lane Roadway},
   author={Jahanmahin, Omid and Lin, Qin and Pan, Yanjun and Dolan, John M},
   booktitle={2021 IEEE Intelligent Vehicles Symposium (IV)},
   pages={1282--1289},
   year={2021},
-  organization={IEEE}
+  organization={IEEE},
+  link = {https://ieeexplore.ieee.org/document/9575938},
+  abstract = {This work proposes a novel framework for motion planning using trajectory optimization for autonomous driving. First, a two-phase behavioral policy maker (BPM) is proposed as a high-level decision maker to mimic human-like driving style by avoiding unnecessary tasks and early lane changes. Second, a comprehensive study on iterative adaptive weight tuning functions has been done to limit manual weight tuning in the Constrained Iterative Linear Quadratic Regulator (CILQR) motion planner. Third, a jerk-minimized CILQR is presented to ensure the comfort and safety of passengers by generating smooth trajectories. The simulation results show efficiency, safety, and comfort of generated trajectories.}
 }
 
 @inproceedings{lin2020measuring,
-  abbr={ACC},
+  abbr={lin2020measuring},
   title={Measuring similarity of interactive driving behaviors using matrix profile},
   author={Lin, Qin and Wang, Wenshuoa and Zhang, Yihuan and Dolan, John M},
   booktitle={2020 American Control Conference (ACC)},
   pages={3965--3970},
   year={2020},
-  organization={IEEE}
+  organization={IEEE},
+  link = {https://ieeexplore.ieee.org/document/9147893},
+  abstract = {Understanding multi-vehicle interactive behaviors with temporal sequential observations is crucial for autonomous vehicles to make appropriate decisions in an uncertain traffic environment. On-demand similarity measures are significant for autonomous vehicles to deal with massive interactive driving behaviors by clustering and classifying diverse scenarios. This paper proposes a general approach for measuring spatiotemporal similarity of interactive behaviors using a multivariate matrix profile technique. The key attractive features of the approach are its reduced space and time complexity, real-time online computing for streaming traffic data, and possible capability of leveraging hardware for parallel computation. The proposed approach is validated through automatically discovering similar interactive driving behaviors at intersections from sequential data.}
 }
 
 @inproceedings{pan2020safe,
-  abbr={IROS},
+  abbr={pan2020safe},
   title={Safe planning for self-driving via adaptive constrained ILQR},
   author={Pan*, Yanjun and Lin, Qin and Shah, Het and Dolan, John M},
   booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pages={2377--2383},
   year={2020},
-  organization={IEEE}
+  organization={IEEE},
+  link = {https://ieeexplore.ieee.org/abstract/document/9340886},
+  abstract = {Constrained Iterative Linear Quadratic Regulator (CILQR), a variant of ILQR, has been recently proposed for motion planning problems of autonomous vehicles to deal with constraints such as obstacle avoidance and reference tracking. However, the previous work considers either deterministic trajectories or persistent prediction for target dynamical obstacles. The other drawback is lack of generality - it requires manual weight tuning for different scenarios. In this paper, two significant improvements are achieved. Firstly, a twostage uncertainty-aware prediction is proposed. The short-term prediction with safety guarantee based on reachability analysis is responsible for dealing with extreme maneuvers conducted by target vehicles. The long-term prediction leveraging an adaptive least square filter preserves the long-term optimality of the planned trajectory since using reachability only for long-term prediction is too pessimistic and makes the planner over-conservative. Secondly, to allow a wider coverage over different scenarios and to avoid tedious parameter tuning case by case, this paper designs a scenario-based analytical function taking the states from the ego vehicle and the target vehicle as input, and carrying weights of a cost function as output. It allows the ego vehicle to execute multiple behaviors (such as lane-keeping and overtaking) under a single planner. We demonstrate safety, effectiveness, and real-time performance of the proposed planner in simulations.}
 }
-
 @inproceedings{lin2020reachflow,
-  abbr={IROS},
+  abbr={lin2020reachflow},
   title={Reachflow: An online safety assurance framework for waypoint-following of self-driving cars},
   author={Lin, Qin and Chen, Xin and Khurana, Aman and Dolan, John M},
   booktitle={2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pages={6627--6632},
   year={2020},
-  organization={IEEE}
+  organization={IEEE},
+  link = {https://ieeexplore.ieee.org/document/9341122},
+  abstract = {Learning-enabled components have been widely deployed in autonomous systems. However, due to the weak interpretability and the prohibitively high complexity of large-scale machine learning models such as neural networks, reliability has been a crucial concern for safety-critical autonomous systems. This work proposes an online monitor called Reach-Flow for fault prevention of waypoint-following tasks for self-driving cars. It mainly consists of two components: (a) an online verification tool which conservatively checks the safety of the system behavior in the near future, and (b) a fallback controller which steers the system back to a desired state when the system is potentially unsafe. We implement ReachFlow in a self-driving racing car governed by a reinforcement learning-based controller. We demonstrate the effectiveness by rigorously verifying a safe waypoint-following control and providing a fallback control for an unsafe situation in which a large deviation from the planned path is predicted.}
 }
 
 
 @inproceedings{lin2020safety,
-  abbr={IV},
+  abbr={lin2020safety},
   title={Safety verification of a data-driven adaptive cruise controller},
   author={Lin, Qin and Verwer, Sicco and Dolan, John},
   booktitle={2020 IEEE Intelligent Vehicles Symposium (IV)},
   pages={2146--2151},
   year={2020},
-  organization={IEEE}
+  organization={IEEE},
+  link = {https://ieeexplore.ieee.org/document/9304710},
+  abstract = {Imitation learning provides a way to automatically construct a controller by mimicking human behavior from data. For safety-critical systems such as autonomous vehicles, it can be problematic to use controllers learned from data because they cannot be guaranteed to be collision-free. Recently, a method has been proposed for learning a multi-mode hybrid automaton cruise controller (MOHA). Besides being accurate, the logical nature of this model makes it suitable for formal verification. In this paper, we demonstrate this capability using the SpaceEx hybrid model checker as follows. We develop an automated tool to translate the automaton model into constraints and equations required by SpaceEx. We then verify that a pure MOHA controller is not collision-free. By adding a safety state based on headway in time, a rule that human drivers should follow anyway, we do obtain a provably safe cruise control. Moreover, the safe controller remains more humanlike than existing cruise controllers.}
 }
 
 @inproceedings{lin2019using,
-  abbr={CRITIS},
+  abbr={lin2019using},
   title={Using datasets from industrial control systems for cyber security research and education},
   author={Lin, Qin and Verwer, Sicco and Kooij, Robert and Mathur, Aditya},
   booktitle={International Conference on Critical Information Infrastructures Security},
   pages={122--133},
   year={2019},
-  organization={Springer}
+  link = {https://link.springer.com/chapter/10.1007/978-3-030-37670-3_10},
+  organization={Springer},
+  abstract = {The availability of high-quality benchmark datasets is an important prerequisite for research and education in the cyber security domain. Datasets from realistic systems offer a platform for researchers to develop and test novel models and algorithms. Such datasets also offer students opportunities for active and project-centric learning. In this paper, we describe six publicly available datasets from the domain of Industrial Control Systems (ICS). Five of these datasets are obtained through experiments conducted in the context of operational ICS while the sixth is obtained from a widely used simulation tool, namely EPANET, for large scale water distribution networks. This paper presents two studies on the use of the datasets. The first study uses the dataset from a live water treatment plant. This study leads to a novel and explainable anomaly detection method based upon Timed Automata and Bayesian Networks. The study conducted in the context of education made use of the water distribution network dataset in a graduate course on cyber data analytics. Through an assignment, students explored the effectiveness of various methods for anomaly detection. Research outcomes and the success of the course indicate an appreciation in the research community and positive learning experience in education.}
 }
 
 @phdthesis{lin2019intelligent,
-  abbr={Ph.D. dissertation},
+  abbr={lin2019intelligent},
   title={Intelligent control systems: Learning, interpreting, verification},
   author={Lin, Qin},
   year={2019},
+  link = {https://repository.tudelft.nl/islandora/object/uuid:7b17a968-1414-4b84-bbf3-9a0c1197e1fd?collection=research},
   school={Delft University of Technology}
 }
 
 @inproceedings{lin2018tabor,
-  abbr={Asia CCS},
+  abbr={lin2018tabor},
   title={TABOR: A graphical model-based approach for anomaly detection in industrial control systems},
   author={Lin, Qin and Adepu, Sridha and Verwer, Sicco and Mathur, Aditya},
   booktitle={Proceedings of the 2018 on asia conference on computer and communications security},
   pages={525--536},
-  year={2018}
+  year={2018},
+  slides = {https://www.researchgate.net/publication/325713341_TABOR_A_Graphical_Model-based_Approach_for_Anomaly_Detection_in_Industrial_Control_Systems_Presentation_as_AsiaCCS},
+  link = {https://dl.acm.org/doi/10.1145/3196494.3196546},
+  abstract = {Industrial Control Systems (ICS) such as water and power are critical to any society. Process anomaly detection mechanisms have been proposed to protect such systems to minimize the risk of damage or loss of resources. In this paper, a graphical model-based approach is proposed for profiling normal operational behavior of an operational ICS referred to as SWaT (Secure Water Treatment). Timed automata are learned as a model of regular behaviors shown in sensors signal like fluctuations of water level in tanks. Bayesian networks are learned to discover dependencies between sensors and actuators. The models are used as a one-class classifier for process anomaly detection, recognizing irregular behavioral patterns and dependencies. The detection results can be interpreted and the abnormal sensors or actuators localized due to the interpretability of the graphical models. This approach is applied to a dataset collected from SWaT. Experimental results demonstrate the model's superior performance on both precision and run-time over methods including support vector machine and deep neural networks. The underlying idea is generic and applicable to other industrial control systems such as power and transportation.}
 }
 
 @article{zhang2018lane,
-  abbr={TIV}, 
+  abbr={zhang2018lane}, 
   title={Lane-change intention estimation for car-following control in autonomous driving},
   author={Zhang, Yihuan and Lin, Qin and Wang, Jun and Verwer, Sicco and Dolan, John M},
   journal={IEEE Transactions on Intelligent Vehicles},
@@ -179,11 +213,13 @@
   number={3},
   pages={276--286},
   year={2018},
-  publisher={IEEE}
+  publisher={IEEE},
+  link = {https://ieeexplore.ieee.org/abstract/document/8370696},
+  abstract = {Car-following is the most general behavior in highway driving. It is crucial to recognize the cut-in intention of vehicles from an adjacent lane for safe and cooperative driving. In this paper, a method of behavior estimation is proposed to recognize and predict the lane change intentions based on the contextual traffic information. A model predictive controller is designed to optimize the acceleration sequences by incorporating the lane-change intentions of other vehicles. The public data set of next generation simulation is labeled and then published as a benchmarking platform for the research community. Experimental results demonstrate that the proposed method can accurately estimate vehicle behavior and therefore outperform the traditional car-following control.}
 }
 
 @article{lin2018moha,
-  abbr={TITS},
+  abbr={lin2018moha},
   title={MOHA: A multi-mode hybrid automaton model for learning car-following behaviors},
   author={Lin, Qin and Zhang, Yihuan and Verwer, Sicco and Wang, Jun},
   journal={IEEE Transactions on Intelligent Transportation Systems},
@@ -191,22 +227,26 @@
   number={2},
   pages={790--796},
   year={2018},
-  publisher={IEEE}
+  publisher={IEEE},
+  link = {https://ieeexplore.ieee.org/document/8384014},
+  abstract = {This paper proposes a novel hybrid model for learning discrete and continuous dynamics of car-following behaviors. Multiple modes representing driving patterns are identified by partitioning the model into groups of states. The model is visualizable and interpretable for car-following behavior recognition, traffic simulation, and human-like cruise control. The experimental results using the next generation simulation datasets demonstrate its superior fitting accuracy over conventional models.}
 }
 
 @incollection{zhang2017data,
-  abbr={IAVSD},
+  abbr={zhang2017data},
   title={A data-driven behavior generation algorithm in car-following scenarios},
   author={Zhang, Yihuan and Wang, Jun and Lin, Qin and Verwer, Sicco and Dolan, John M},
   booktitle={The Dynamics of Vehicles on Roads and Tracks},
   pages={227--232},
   year={2017},
-  publisher={CRC Press}
+  publisher={CRC Press},
+  link = {https://www.taylorfrancis.com/chapters/edit/10.1201/9781351057264-34/data-driven-behavior-generation-algorithm-car-following-scenarios-yihuan-zhang-jun-wang-qin-lin-sicco-verwer-john-dolan},
+  abstract = {The conventional Adaptive Cruise Control system lacks user-friendly design. In this paper, a novel method for learning a generative model from human drivers car-following data using an automaton learning algorithms is proposed. By partitioning the model using frequent common state sequences, human driving patterns are extracted and clustered. Then a cluster identification method is used to obtain the current driving pattern and generate a desired acceleration. The experiments validate that the simulated trajectories of the proposed method are more similarly to human drivers than those of conventional PID controller.}
 }
 
 
 @article{zhang2017car,
-  abbr={IFAC},
+  abbr={zhang2017car},
   title={Car-following behavior model learning using timed automata},
   author={Zhang, Yihuan and Lin, Qin and Wang, Jun and Verwer, Sicco},
   journal={IFAC-PapersOnLine},
@@ -214,57 +254,70 @@
   number={1},
   pages={2353--2358},
   year={2017},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  link = {https://www.sciencedirect.com/science/article/pii/S2405896317307735},
+  abstract = {Learning driving behavior is fundamental for autonomous vehicles to understand traffic situations. This paper proposes a novel method for learning a behavioral model of car-following using automata learning algorithms. The model is interpretable for car-following behavior analysis. Frequent common state sequences are extracted from the model and clustered as driving patterns. The Next Generation SIMulation dataset on the I-80 highway is used for learning and evaluating. The experimental results demonstrate high accuracy of car-following model fitting.}
 }
 
 @inproceedings{liu2017anomaly,
-  abbr={LearnAut},
+  abbr={liu2017anomaly},
   title={Anomaly Detection in a Digital Video Broadcasting System Using Timed Automata},
   author={Liu*, Xiaoran and Lin, Qin and Verwer, Sicco and Jarnikov, Dmitri},
   booktitle={Thirty-Second Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)
   Workshop on Learning and Automata (LearnAut)},
-  year={2017}
+  year={2017},
+  link = {https://www.researchgate.net/publication/316798304_Anomaly_Detection_in_Digital_Video_Broadcasting_System_Using_Timed_Automata},
+  abstract = {This paper focuses on detecting anomalies in a digital video broadcasting (DVB) system from providers' perspective. We learn a probabilistic deterministic real timed automaton profiling benign behavior of encryption control in the DVB control access system. This profile is used as a one-class classifier. Anomalous items in a testing sequence are detected when the sequence is not accepted by the learned model.}
 }
 
 @inproceedings{pellegrino2017learning,
-  abbr={IM},
+  abbr={pellegrino2017learning},
   title={Learning behavioral fingerprints from netflows using timed automata},
   author={Pellegrino, Gaetano and Lin, Qin and Hammerschmidt, Christian and Verwer, Sicco},
   booktitle={2017 IFIP/IEEE Symposium on Integrated Network and Service Management (IM)},
   pages={308--316},
   year={2017},
-  organization={IEEE}
+  organization={IEEE},
+  link = {https://ieeexplore.ieee.org/abstract/document/7987293},
+  abstract={We present a novel way to detect infected hosts and identify malware in networks by analyzing network communication statistics with state-of-the-art automata learning algorithms. The automata encode patterns of short-term interactions in known malicious hosts, and are used to obtain small but effective fingerprints of machine behavior. We showcase the effectiveness of our system, named BASTA 1 (Behavioral Analytics System using Timed Automata), on a public dataset containing Netflow traces of real-world botnet malware. Compared to a deep packet inspection of communication content, Netflows are easy and cheap to collect and analyze, and preserve a greater degree of privacy. Even though the high level of abstraction in Netflow data makes it more difficult to utilize it, BASTA shows very impressive results achieving high accuracy in several settings while returning few false positives. It is also capable of detecting infections of previously unseen malware.}
 }
 
 @inproceedings{Hammerschmidt2016,
-  abbr={NIPS workshop},
+  abbr={Hammerschmidt2016},
   title={Interpreting Finite Automata for Sequential Data},
   author={Hammerschmidt, Christian and Verwer, and Lin, Qin},
   booktitle={: NIPS 2016 workshop proceedings},
-  year={2016}
+  year={2016},
+  link={https://arxiv.org/abs/1611.07100},
+  abstract={Automaton models are often seen as interpretable models. Interpretability itself is not well defined: it remains unclear what interpretability means without first explicitly specifying objectives or desired attributes. In this paper, we identify the key properties used to interpret automata and propose a modification of a state-merging approach to learn variants of finite state automata. We apply the approach to problems beyond typical grammar inference tasks. Additionally, we cover several use-cases for prediction, classification, and clustering on sequential data in both supervised and unsupervised scenarios to show how the identified key properties are applicable in a wide range of contexts.}
 }
 
 
 @inproceedings{lin2016RA,
-  abbr={KDD MiLeTS},
+  abbr={lin2016RA},
   title={Short-term Time Series Forecasting with Regression Automata},
   author={Lin, Qin and Hammerschmidt, Christian and Pellegrino, Gaetano and Verwer, Sicco},
   booktitle={Interpretable Machine Learning for Complex Systems: NIPS 2016 workshop proceedings},
-  year={2016}
+  year={2016},
+  link = {https://www.researchgate.net/publication/306039837_Short-term_Time_Series_Forecasting_with_Regression_Automata},
+  video = {https://www.youtube.com/watch?v=Tc-JVDsJf2c},
+  abstract={We present regression automata (RA), which are novel type syntactic models for time series forecasting. Building on top of conventional state-merging algorithms for identifying automata, RA use numeric data in addition to symbolic values and make predictions based on this data in a regression fashion. We apply our model to the problem of hourly wind speed and wind power forecasting. Our results show that RA outperform other state-of-the-art approaches for predicting both wind speed and power generation. In both cases, short-term predictions are used for resource allocation and infrastructure load balancing. For those critical tasks, the ability to inspect and interpret the generative model RA provide is an additional benefit.}
 }
 
-@inproceedings{pellegrino2017learning,
-  abbr={ICGI},
+@inproceedings{pellegrino2017learningICGI,
+  abbr={pellegrino2017learningICGI},
   title={Learning deterministic finite automata from infinite alphabets},
   author={Pellegrino, Gaetano and Hammerschmidt, Christian and Lin, Qin and Verwer, Sicco},
   booktitle={International Conference on Grammatical Inference},
   pages={120--131},
   year={2017},
-  organization={PMLR}
+  organization={PMLR},
+  link = {http://proceedings.mlr.press/v57/pellegrino16.html},
+  abstract = {We proposes an algorithm to learn automata infinite alphabets, or at least too large to enumerate. We apply it to define a generic model intended for regression, with transitions constrained by intervals over the alphabet. The algorithm is based on the Red & Blue framework for learning from an input sample. We show two small case studies where the alphabets are respectively the natural and real numbers, and show how nice properties of automata models like interpretability and graphical representation transfer to regression where typical models are hard to interpret.}
 }
 
 @article{gu2014automatic,
-  abbr={TSE},
+  abbr={gu2014automatic},
   title={Automatic contour-based road network design for optimized wind farm micrositing},
   author={Gu, Huajie and Wang, Jun and Lin, Qin and Gong, Qi},
   journal={IEEE Transactions on Sustainable Energy},
@@ -272,11 +325,13 @@
   number={1},
   pages={281--289},
   year={2014},
-  publisher={IEEE}
+  publisher={IEEE},
+  link = {https://ieeexplore.ieee.org/document/6979252},
+  abstract={Constructing the access roads between wind turbines requires a significant cost when a wind farm is built in hills or mountains. An optimized design of road network can substantially reduce construction costs and increase investment returns. In this paper, we consider a challenging problem of the road network design for a wind farm with complex topography. An automatic contour-based model is developed for road network design, and is incorporated into the optimization of wind farm micrositing to maximize investment returns of the wind farm. The directions of access roads are first deduced from a contour tree, the route projections are then designed by a gradient-bounded algorithm, and the most cost-effective road network is finally obtained by the minimum spanning tree algorithm. The topographic speedup, wind resource grid and Park wake model are incorporated to accurately evaluate the power production of the wind farm. Both the profit of wind energy sales and the cost of access roads are combined into a cost function called net present value, which is optimized using genetic algorithms. Simulation results illustrate that the length of access roads is decreased significantly while the locations of wind turbines are optimized. The proposed method simultaneously optimizes the turbine layout and road network of the wind farm, therefore achieving a more practical and profitable wind farm micrositing.}
 }
 
 @article{lin2014vertically,
-  abbr={TSE}, 
+  abbr={lin2014vertically}, 
   title={Vertically correlated echelon model for the interpolation of missing wind speed data},
   author={Lin, Qin and Wang, Jun},
   journal={IEEE Transactions on Sustainable Energy},
@@ -284,16 +339,20 @@
   number={3},
   pages={804--812},
   year={2014},
-  publisher={IEEE}
+  publisher={IEEE},
+  link = {https://ieeexplore.ieee.org/abstract/document/6775308},
+  abstract = {The wind speeds of a wind farm are not always available or accurately measurable due to uncontrollable events such as anemometer failures or data transmission errors. However, the data are of great importance for wind resource assessment and wind speed prediction. In this paper, a vertically correlated echelon model (CEM) is proposed to interpolate the missing data of wind speeds by utilizing the correlation of wind speeds at different heights. First, the data of wind speed are checked according to a national standard. Second, the model based on the correlation of wind speeds at different heights is proposed for short interval of missing data. Third, the proposed method is compared with typical interpolation methods and its advantages and disadvantages are discussed. Finally, the uncertainty of the proposed method is analyzed for improved evaluation of interpolation errors.}
 }
 
 @inproceedings{lin2013denoising,
-  abbr={CAC},
+  abbr={lin2013denoising},
   title={Denoising of wind speed data by wavelet thresholding},
   author={Lin, Qin and Wang, Jun and Qiao, Weiting},
   booktitle={2013 Chinese Automation Congress},
   pages={518--521},
   year={2013},
-  organization={IEEE}
+  organization={IEEE},
+  link = {https://ieeexplore.ieee.org/document/6775789},
+  abstract = {Completeness and reasonableness test of wind farm data is a critical prerequisite for wind speed prediction, meanwhile it plays an important role on the reliability and safety of the grids. The key to dealing with the unreasonable data lies in eliminating the noise. In this work, we perform an analysis of the noise source of wind speed data observed in wind farm and highlight using the wavelet analysis to eliminate the noise. To test the denoising effect, the equivalent wind speed model is then established. Experiment results show that the effective preprocessing of the raw data yield good performance for attenuating the influence of noises.}
 }
 
