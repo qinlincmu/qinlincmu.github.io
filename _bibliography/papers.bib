@@ -2,58 +2,71 @@
 ---
 @article{deolasee2022spatio,
   abbr={deolasee2022spatio},
-  title={Spatio-temporal Motion Planning for Autonomous Vehicles with Trapezoidal Prism Corridors and B$\backslash$'$\{$e$\}$ zier Curves},
+  title={Spatio-temporal Motion Planning for Autonomous Vehicles with Trapezoidal Prism Corridors and Bezier Curves},
   author={Deolasee*, Srujan and Lin, Qin and Li, Jialun and Dolan, John M},
   journal={arXiv preprint arXiv:2209.15150},
   year={2022},
   video = {https://youtu.be/-SXlEhSTSi8},
+  link = {https://arxiv.org/abs/2209.15150},
+  abstract = {Safety-guaranteed motion planning is critical for self-driving cars to generate collision-free trajectories. A layered motion planning approach with decoupled path and speed planning is widely used for this purpose. This approach is prone to be suboptimal in the presence of dynamic obstacles. Spatial-temporal approaches deal with path planning and speed planning simultaneously; however, the existing methods only support simple-shaped corridors like cuboids, which restrict the search space for optimization in complex scenarios. We propose to use trapezoidal prism-shaped corridors for optimization, which significantly enlarges the solution space compared to the existing cuboidal corridors-based method. Finally, a piecewise Bézier curve optimization is conducted in our proposed corridors. This formulation theoretically guarantees the safety of the continuous-time trajectory. We validate the efficiency and effectiveness of the proposed approach in numerical and CommonRoad simulations.},
   selected={true}
 }
 
-@article{Chen2022,
-  abbr={under review},
+@article{chen2022,
+  abbr={chen2022},
   title={Extended State Observer with Control Lyapunov and Barrier Functions for Uncertain Safety-Critical Contro},
   author={Chen*, Jinfeng and Gao, Zhiqiang and Zhang, Fan and Lin, Qin},
-  year={2022}
+  year={2022},
+  abstract = {Control Lyapunov and barrier functions-based quadratic programming (CLF-CBF-QP) method is gaining popularity as a controller synthesis tool for safe control owing to its appearing forward invariant set property, i.e., the system's trajectory can be assured to stay in a safe set over an infinite time horizon. We propose a first-of-its-kind controller combining an extended state observer with control Lyapunov and barrier functions to guarantee safety for uncertain dynamic models. Compared with state-of-the-art adaptive and robust QP, our controller design is more compact and responsive to disturbances for mitigating overconservatism. We validate our approach’s efficacy in a simulation of an adaptive cruise control system.}
 }
 
 
 @article{kalaria2022delay,
-  abbr={under review},
+  abbr={kalaria2022delay},
   title={Delay-aware Robust Control for Safe Autonomous Driving and Racing},
   author={Kalaria*, Dvij and Lin, Qin and Dolan, John M},
   journal={arXiv preprint arXiv:2208.13856},
-  year={2022}
+  link={https://arxiv.org/abs/2208.13856},
+  year={2022},
+  video = {https://youtu.be/bWNpzMi3RlI},
+  abstract = {Delays endanger safety of autonomous systems operating in a rapidly changing environment, such as nondeterministic surrounding traffic participants in autonomous driving and high-speed racing. Unfortunately, delays are typically not considered during the conventional controller design or learning-enabled controller training phases prior to deployment in the physical world. In this paper, the computation delay from nonlinear optimization for motion planning and control, as well as other unavoidable delays caused by actuators, are addressed systematically and unifiedly. To deal with all these delays, in our framework: 1) we propose a new filtering approach with no prior knowledge of dynamics and disturbance distribution to adaptively and safely estimate the time-variant computation delay; 2) we model actuation dynamics for steering delay;  3) all the constrained optimization is realized in a robust tube model predictive controller. For the application merits, we demonstrate that our approach is suitable for both autonomous driving and autonomous racing. Our approach is a novel design for a standalone delay compensation controller. In addition, in the case that a learning-enabled controller assuming no delay works as a primary controller, our approach serves as the primary controller's safety guard. The video demonstration is available online.}
 }
 
 @inproceedings{li2022bezier,
-  abbr={IROS},
+  abbr={li2022bezier},
   title={Motion Planning by Search in Derivative Space and Convex Optimization with Enlarged Solution Space},
   author={Li*, Jialun and Xie, Xiaojia and Lin, Qin and He, Jianping and Dolan, John M},
   booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year={2022},
-  organization={IEEE}
+  organization={IEEE},
+  video = {https://youtu.be/0zhLScS29f0},
+  abstract = {To efficiently generate safe trajectories for an autonomous vehicle in dynamic environments, a layered motion planning method with decoupled path and speed planning is widely used. This paper studies speed planning, which mainly deals with dynamic obstacle avoidance given a planned path. The main challenges lie in the optimization in a non-convex space and the trade-off between safety, comfort, and efficiency. First, this work proposes to conduct a search in second-order derivative space for generating a comfort-optimal reference trajectory. Second, by combining abstraction and refinement, an algorithm is proposed to construct a convex feasible space for optimization. Finally, a piecewise B ́ezier polynomial optimization approach with trapezoidal corridors is presented, which theoretically guarantees safety and significantly enlarges the solution space compared with the existing rectangular corridors-based approach. We validate the efficiency and effectiveness of the proposed approach in simulations}
 }
 
-@inproceedings{Panduro2022,
-  abbr={IROS},
+@inproceedings{panduro2022,
+  abbr={panduro2022},
   title={Online Adaptive Compensation for Model Uncertainty Using Extreme Learning Machine-based Control Barrier Functions},
   author={Panduro*, Emanuel Munoz and Kalaria, Dvij and Lin, Qin and Dolan, John M.},
   booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year={2022},
-  organization={IEEE}
+  organization={IEEE},
+  video = {https://youtu.be/9xXx9wxE1lY},
+  abstract = {A control barrier functions-based quadratic programming (CBF-QP) method has emerged as a controller synthesis tool to assure safety of autonomous systems owing to the appealing safe forward invariant set. However, the provable safety relies on a precisely described dynamic model, which is not always available in practice. Recent works leverage learning to compensate model uncertainty for a CBF controller.  However, these approaches based on reinforcement learning or episodic learning are limited to dealing with time-invariant uncertainty. Also, the reinforcement learning approach learns the uncertainty offline, while episodic learning only updates the controller after a batch of data is available by the end of an episode. Instead, we propose a novel tuning extreme learning machine (tELM)-based CBF controller that can compensate time-variant and time-invariant model uncertainty adaptively in an online manner. We validate our approach's effectiveness in a simulation of an Adaptive Cruise Control (ACC) system.}
 }
 
 
 
-@inproceedings{kalaria2022delay,
-  abbr={IV},
+@inproceedings{kalaria2022IV,
+  abbr={kalaria2022IV},
   title={Delay-aware Robust Control for Safe Autonomous Driving},
   author={Kalaria*, Dvij and Lin, Qin and Dolan, John M},
   booktitle={2022 IEEE Intelligent Vehicles Symposium (IV)},
   pages={1565--1571},
   year={2022},
-  organization={IEEE}
+  organization={IEEE},
+  video = {https://www.youtube.com/watch?v=KdqClN4fiR0},
+  link = {https://ieeexplore.ieee.org/abstract/document/9827111},
+  abstract = {With the advancement of affordable self-driving vehicles using complicated nonlinear optimization but limited computation resources, computation time becomes a matter of concern. Other factors such as actuator dynamics and actuator command processing cost also unavoidably cause delays. In high-speed scenarios, these delays are critical to the safety of a vehicle. Recent works consider these delays individually, but none unifies them all in the context of autonomous driving. Moreover, recent works inappropriately consider computation time as a constant or a large upper bound, which makes the control either less responsive or over-conservative. To deal with all these delays, we present a unified framework by 1) modeling actuation dynamics, 2) using robust tube model predictive control, and 3) using a novel adaptive Kalman filter without assuming a known process model and noise covariance, which makes the controller safe while minimizing conservativeness. On the one hand, our approach can serve as a standalone controller; on the other hand, our approach provides a safety guard for a high-level controller, which assumes no delay. This can be used for compensating the sim-to-real gap when deploying a black-box learning-enabled controller trained in a simplistic environment without considering delays for practical vehicle systems.}
 }
 
 @article{lin2021safe,

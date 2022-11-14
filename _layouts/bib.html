@@ -69,18 +69,20 @@
 
     <span class="links">
     {% if entry.abstract %}
-      [<a class="abstract">Abs</a>]
+      [<a class="abstract">abstract</a>]
     {% endif %}
+    <!--
     {% if entry.arxiv %}
       [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
     {% else%}
       [arXiv (available soon)]
-    {% endif %}
+    {% endif %} -->
+
     {% if entry.video %}
-      [<a href="{{ entry.video }}" target="_blank">Video</a>]
+      [<a href="{{ entry.video }}" target="_blank">video</a>]
     {% endif %}
-    {% if entry.html %}
-      [<a href="{{ entry.html }}" target="_blank">Website</a>]
+    {% if entry.link %}
+      [<a href="{{ entry.link }}" target="_blank">link</a>]
     {% endif %}
     {% if entry.pdf %}
       [<a href="{{ entry.pdf | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]
