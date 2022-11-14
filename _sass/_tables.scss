@@ -44,3 +44,24 @@ table {
     border-top: 2px solid #333;
   }
 }
+
+//TODO
+table {
+  td, th {
+    color: var(--global-text-color);
+  }
+  td {
+    font-size: 1rem;
+  }
+}
+
+a, table.table a {
+  color: var(--global-theme-color);
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
+  &:hover:after :not(.nav-item.dropdown) {
+    width: 100%;
+  }
+}
