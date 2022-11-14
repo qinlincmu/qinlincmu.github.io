@@ -15,7 +15,7 @@
 //     margin: 0 -3em -2.5ex -2em;
 //     padding-top: 1ex;
 //     text-align: right;
-// } #remove due to problems of seperation based on years
+// } remove due to problems of seperation based on years
 .bibliography {
     margin-bottom: 50px;
     margin-top: 20px;
@@ -63,7 +63,7 @@
             }
         }
         .hidden.open {
-            //color: $purple-color;
+            color: $purple-color;
             max-height: 100em;
             -webkit-transition: 0.15s ease;
             -moz-transition: 0.15s ease;
@@ -72,7 +72,7 @@
             transition: all 0.15s ease;
         }
         span.abstract.hidden {
-            //color: $purple-color;
+            color: $purple-color;
             border: dashed 0px $purple-color;
         }
         span.abstract.hidden.open {

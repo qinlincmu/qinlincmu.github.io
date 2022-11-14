@@ -25,8 +25,8 @@
         border-collapse: collapse;
         width: 70%;
 
-        .date { width: 20%; }
-        .announcement { width: 51%; }
+        .date { width: 5%; }
+        .announcement { width: 100%; }
 
         tr { text-align: left; }
         td {
@@ -38,7 +38,7 @@
 }
 
 .social {
-    border-top: 1px solid $grey-color-light;
-    margin-top: 50px;
-    padding-top: 20px;
+    border-top: 1px ;
+    margin-top: 5px;
+    padding-top: 5px;
 }

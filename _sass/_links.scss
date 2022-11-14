@@ -1,5 +1,5 @@
 a {
-    color: $black-color;
+    color: $purple-color;
     text-decoration: none;
 
     &:hover {
@@ -9,7 +9,7 @@ a {
 }
 
 article a, .news a {
-    color: $black-color;
+    color: $purple-color;
     font-weight: 50;
 
     &:hover {
@@ -18,9 +18,9 @@ article a, .news a {
 }
 
 .social a {
-    color: $black-color;
+    color: $purple-color;
 
-    &:hover { color: $black-color; }
+    &:hover { color: $purple-color; }
 }
 
 
