@@ -92,7 +92,7 @@ nav_order: 5
     <h6 class="font-italic mt-2 mt-sm-0">2015-2018: Teaching Assistant</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">○ with the instructor <a href="https://www.tudelft.nl/staff/s.e.verwer/" target="_blank">Prof. Sicco Verwer</a></li>
-      <li class="list-group-item">○ we published a pedagogical paper for the designn of such a project-centric master course using real cyber security data, check out our paper: <a href="https://link.springer.com/chapter/10.1007/978-3-030-37670-3_10" target="_blank">Using datasets from industrial control systems for cyber security research and education</a></li>
+      <li class="list-group-item">○ we published a pedagogical paper for the design of such a project-centric master course using real cyber security data, check out our paper: <a href="https://link.springer.com/chapter/10.1007/978-3-030-37670-3_10" target="_blank">Using datasets from industrial control systems for cyber security research and education</a></li>
     </ul>
   </div>
 </div>
