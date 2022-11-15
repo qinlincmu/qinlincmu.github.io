@@ -222,7 +222,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['safe-control', 'learning-based-control', 'autonomous-vehicle', 'CBF'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['safe-control', 'learning-based-control', 'autonomous-vehicle', 'CBF', 'industrial-control-systems-(ICS)', 'ICS-security', 'process-anomaly-detection', 'machine-learning'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
