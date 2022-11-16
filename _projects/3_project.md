@@ -13,5 +13,5 @@ category: facilities
     </div>
 </div>
 <div class="caption">
-Baxter is a two-armed collaborative robot. The platform will be used to validated our control algorithms in a high-dimensional dynamic system and a human-robot safe interaction application.
+Baxter is a two-armed collaborative robot. The platform will be used to validate our control algorithms in a high-dimensional dynamic system and a human-robot safe interaction application.
 </div>
