@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Assisstant Professor</a>. EECS, Cleveland State University
+subtitle: <a href='#'>Assistant Professor</a>. EECS, Cleveland State University
 
 profile:
   align: right
