@@ -1,12 +1,24 @@
 ---
 ---
 
+@article{kalaria2023racing,
+  abbr={kalaria2023racing},
+  title={Adaptive Planning and Control with Time-Varying Tire Models for Autonomous Racing Using Extreme Learning Machine},
+  author={Kalaria*, Dvij and Lin, Qin and Dolan, John M},
+  booktitle ={under review},
+  year={2023},
+  video = {https://www.youtube.com/watch?v=kAQ2LbeP8-s},
+  abstract = {Autonomous racing is a challenging problem, as the vehicle needs to operate at the friction or handling limits in order to achieve minimum lap times. Autonomous race cars require highly accurate perception, state estimation, planning and precise application of controls. What makes it even more challenging is the accurate identification of vehicle model parameters that dictate the effects of the lateral tire slip, which may change over time, for example, due to wear and tear of the tires. Current works either propose model identification offline or need good parameters to start with (within 15-20% of actual value), which is not enough to account for major changes in tire model that occur during actual races when driving at the control limits. We propose a unified framework which learns the tire model online from the collected data, as well as adjusts the model based on environmental changes even if the model parameters change by a higher margin. We demonstrate our approach in numeric and high-fidelity simulators for a 1:43 scale race car and a full-size car.},
+  selected={true},
+}
+
 @article{kalaria2022end2end,
   abbr={kalaria2022end2end},
   title={Towards Safety Assured End-to-End Vision-Based Control for Autonomous Racing},
   author={Kalaria*, Dvij and Lin, Qin and Dolan, John M},
-  journal={under review},
-  year={2022},
+  booktitle ={IFAC World Congress 2023},
+  organization={IFAC},
+  year={2023},
   video = {https://www.youtube.com/watch?v=Ora8JCjprw8},
   abstract = {Autonomous car racing is a challenging task, as it requires precise applications of control while the vehicle is operating at cornering speeds. Traditional autonomous pipelines require accurate pre-mapping, localization, and planning which make the task computationally expensive and environment-dependent. Recent works propose use of imitation and reinforcement learning to train end-to-end deep neural networks and have shown promising results for high-speed racing. However, the end-to-end models may be dangerous to be deployed on real systems, as the neural networks are treated as black-box models devoid of any provable safety guarantees. In this work we propose a decoupled approach where an optimal end-to-end controller and a state prediction end-to-end model are learned together, and the predicted state of the vehicle is used to formulate a control barrier function for safeguarding the vehicle to stay within lane boundaries. We validate our algorithm both on a high-fidelity Carla driving simulator and a 1/10-scale RC car on a real track. The evaluation results suggest that using an explicit safety controller helps to learn the task safely with fewer iterations and makes it possible to safely navigate the vehicle on the track along the more challenging racing line.},
   selected={true},
