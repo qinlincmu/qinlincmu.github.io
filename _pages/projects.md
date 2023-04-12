@@ -1,6 +1,6 @@
 ---
 layout: page
-title: lab
+title: Lab
 permalink: /projects/
 description: Assured Intelligent Robotics (AIR) Lab
 nav: true

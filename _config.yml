@@ -109,8 +109,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: demos # blog_name will be displayed in your blog page
-blog_nav_title: demos # your blog must have a title for it to be displayed in the nav bar
+blog_name: Demos # blog_name will be displayed in your blog page
+blog_nav_title: Demos # your blog must have a title for it to be displayed in the nav bar
 blog_description: demos of our most recent research
 permalink: /blog/:year/:title/
 
