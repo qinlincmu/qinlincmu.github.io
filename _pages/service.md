@@ -42,7 +42,9 @@ nav_order: 7
 * IEEE Transactions on Sustainable Energy (TSE)
 * Renewable Energy
 * IET Renewable Power Generation
-* Journal of Computer Science and Technology
+* Journal of Computer Science and Technology (JCST)
+* Control Theory and Technology
+* Field Robotics
 
 ## Conference Reviewing
 
@@ -55,3 +57,6 @@ nav_order: 7
 * International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research (CPAIOR)
 * IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 * IEEE Intelligent Vehicle Symposium (IV)
+* merican Control Conference (ACC)
+* IFAC World Congress
+* International Workshop on Artificial Intelligence and Industrial Internet-of-Things Security (AIoTS)
