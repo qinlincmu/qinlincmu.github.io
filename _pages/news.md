@@ -9,7 +9,11 @@ nav_order: 8
 
 |   |   |
 | --- | ----------- |
+| 2023-05-05 | My very first supervised senior design team secured the top spot in our engineering school's annual competition. Their project is "Autonomous Nursery Cart". You will enjoy watching their inspiring [story](https://youtu.be/HQzIXl9wA2c) unfold! |
+
 | 2023-03-03 | One paper accepted to IFAC 2023. |
+
+| 2023-01-24 | Received a $10,000 subaward from Ohio Cyber Range Institute for cybersecurity research of industrial control systems.  |
 
 |2023-01-21 | I will serve as an Associate Editor for IROS2023. |
 
