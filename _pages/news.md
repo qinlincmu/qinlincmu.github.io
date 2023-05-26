@@ -9,6 +9,8 @@ nav_order: 8
 
 |   |   |
 | --- | ----------- |
+| 2023-05-26 | I have received a grant award from NSF ("ERI: Operator-Automation Shared Protection for Security and Safety Assured Industrial Control Systems: Learning, Detection, and Recovery Control", sole-PI, $200,000, 2023-2025). |
+
 | 2023-05-05 | My very first supervised senior design team secured the top spot in our engineering school's annual competition. Their project is "Autonomous Nursery Cart". You will enjoy watching their inspiring [story](https://youtu.be/HQzIXl9wA2c) unfold! |
 
 | 2023-03-03 | One paper accepted to IFAC 2023. |
