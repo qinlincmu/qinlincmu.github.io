@@ -65,11 +65,11 @@
   abstract = {Safety-guaranteed motion planning is critical for self-driving cars to generate collision-free trajectories. A layered motion planning approach with decoupled path and speed planning is widely used for this purpose. This approach is prone to be suboptimal in the presence of dynamic obstacles. Spatial-temporal approaches deal with path planning and speed planning simultaneously; however, the existing methods only support simple-shaped corridors like cuboids, which restrict the search space for optimization in complex scenarios. We propose to use trapezoidal prism-shaped corridors for optimization, which significantly enlarges the solution space compared to the existing cuboidal corridors-based method. Finally, a piecewise Bézier curve optimization is conducted in our proposed corridors. This formulation theoretically guarantees the safety of the continuous-time trajectory. We validate the efficiency and effectiveness of the proposed approach in numerical and CommonRoad simulations.},
 }
 
-@article{chen2022,
+@inproceedings{chen2022,
   abbr={chen2022},
   title={Robust Control Barrier Functions for Safe Control Under Uncertainty Using Extended State Observer and Output Measurement},
   author={Chen*, Jinfeng and Gao, Zhiqiang and Lin, Qin},
-  journal={under review},
+  booktitle={IEEE Conference on Decision and Control (CDC)},
   year={2023},
   abstract = {Control barrier functions-based quadratic programming (CBF-QP) method is gaining popularity as a controller synthesis tool for safe control owing to its appearing forward invariant set property. However, the provable safety is established on an accurate dynamic model and access to all states. To address such a vulnerability, this paper proposes a novel design combining an extended state observer (ESO) with a CBF for safe control of a system with model uncertainty and external disturbances only using output measurement. Unlike other disturbance observer-based CBFs, ESO is a more general approach to directly estimate the disturbances in the original system rather than the effect of the disturbance on CBF. As a result, our approach delivers a less conservative estimation error bound. Moreover, only output measurements are needed to estimate the disturbances instead of the full access to states. The bound of state estimation error and disturbance estimation error is derived in a unified manner and then used for robust safe control under uncertainty. We validate our approach?s efficacy in numerical simulations of an adaptive cruise control system and a Segway self-balancing scooter.}
 }
