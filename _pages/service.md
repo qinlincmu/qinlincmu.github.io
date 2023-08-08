@@ -12,6 +12,7 @@ nav_order: 7
 * Associate Editor, Journal of Computer Science and Technology (JCST), IF: 1.8
 * Associate Editor, IEEE Robotics and Automation Letters (RA-L), IF: 4.3
 * Associate Editor, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023
+* Associate Editor, American Control Conference (ACC), 2024
 
 ## Program Committee
 
