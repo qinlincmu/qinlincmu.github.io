@@ -7,6 +7,8 @@ nav: true
 nav_order: 8
 ---
 
+| 2023-09-14 | I will serve as an Associate Editor for IEEE Transactions on Vehicular Technology (TVT). |
+
 | 2023-08-07 | I will serve as an Associate Editor for American Control Conference (ACC), 2024. |
 
 | 2023-07-12 | One paper accepted to CDC 2023. |
