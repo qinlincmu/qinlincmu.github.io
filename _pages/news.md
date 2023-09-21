@@ -6,6 +6,7 @@ description:
 nav: true
 nav_order: 8
 ---
+| 2023-09-20 | One paper accepted to the Multi-Agent Dynamic Games (MAD-Games) workshop at IROS 2023. |
 
 | 2023-09-14 | I will serve as an Associate Editor for IEEE Transactions on Vehicular Technology (TVT). |
 
