@@ -6,6 +6,7 @@ description:
 nav: true
 nav_order: 8
 ---
+| 2023-11-27 | One paper accepted to IEEE Trans. on Intelligent Transportation Systems. |
 
 | 2023-09-14 | I will serve as an Associate Editor for IEEE Transactions on Vehicular Technology (TVT). |
 
