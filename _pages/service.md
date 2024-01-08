@@ -12,14 +12,13 @@ nav_order: 7
 * Associate Editor, Journal of Computer Science and Technology (JCST), IF: 1.8
 * Associate Editor, IEEE Robotics and Automation Letters (RA-L), IF: 4.3
 * Associate Editor, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023
-* Associate Editor, American Control Conference (ACC), 2024
 
 ## Program Committee
 
 * AAAI Student Abstract and Poster Program (2022, 2023)
 * International Workshop on Artificial Intelligence and Industrial Internet-of-Things Security (AIoTS), in conjunction with 20th International Conference on Applied Cryptography and Network Security (ACNS 2022)
 * Workshop of Impact of IT/OT Convergence on the Resilience of Critical Infrastructures (IOCRCI), in conjunction with 2023 IFIP Networking Conference
-
+* 4th International Workshop on Critical Infrastructure and Manufacturing System Security (CIMSS)
 
 ## Dissertation Committee
 
@@ -58,6 +57,7 @@ nav_order: 7
 * International Conference on the Integration of Constraint Programming, Artificial Intelligence, and Operations Research (CPAIOR)
 * IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 * IEEE Intelligent Vehicle Symposium (IV)
-* merican Control Conference (ACC)
+* American Control Conference (ACC)
+* IEEE Conference on Decision and Control (CDC)
 * IFAC World Congress
 * International Workshop on Artificial Intelligence and Industrial Internet-of-Things Security (AIoTS)
