@@ -27,7 +27,8 @@ nav_order: 7
 
 ## Grant Panelist
 
-* NASA Space Technology Graduate Research Opportunities (NSTGRO)
+* NASA (2022)
+* NSF (2024)
 
 ## Journal Reviewing
 
