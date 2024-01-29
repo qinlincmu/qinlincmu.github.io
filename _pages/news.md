@@ -6,7 +6,9 @@ description:
 nav: true
 nav_order: 8
 ---
-| 2024-1-10 | I have been invited to serve on an NSF panel.
+| 2024-01-29 | One paper accepted to ICRA 2024. |
+
+| 2024-01-10 | I have been invited to serve on an NSF panel. |
 
 | 2023-11-27 | One paper accepted to IEEE Trans. on Intelligent Transportation Systems. |
 
