@@ -7,6 +7,8 @@ nav: true
 nav_order: 8
 ---
 
+| 2024-05-10 | Received CSU Faculty Merit Recognition Award, AY 2023-2024. |
+
 | 2024-05-03 | After the triumph of our first senior design team last year, my second supervised senior design team secured second place in this year's engineering school's annual competition. Their project is building an autonomous delivery cart from scratch. |
 
 | 2024-05-01 | One paper accepted to the IEEE Control Systems Letters (L-CSS). |
