@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>FH 228, 2121 Euclid Ave., </p>
-    <p>Cleveland, Ohio 44115-2214</p>
+    <p>Technology Building, T2 304C, 4230 MLK Blvd.</p>
+    <p>Houston, TX 77204-4021</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
