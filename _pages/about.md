@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Technology Building, T2 304C, 4230 MLK Blvd.</p>
+    <p>Technology Building, T2 304C, 4230 MLK Blvd.,</p>
     <p>Houston, TX 77204-4021</p>
 
 news: true  # includes a list of news items
