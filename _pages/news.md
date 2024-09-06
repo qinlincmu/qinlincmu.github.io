@@ -6,6 +6,7 @@ description:
 nav: true
 nav_order: 8
 ---
+| 2024-09-01 | My team has moved to the University of Houston to start a new chapter. |
 
 | 2024-05-10 | One paper accepted to IEEE CASE 2024. |
 
